@@ -1,7 +1,7 @@
-export default function MemberItem({ member }) {
+export default function TodoItem({ todo }) {
   return (
     <li
-      key={member.id}
+      key={todo.id}
       style={{
         border: "1px solid #ccc",
         padding: "10px",
@@ -9,7 +9,7 @@ export default function MemberItem({ member }) {
       }}
     >
       <label className="member-label">
-        <span>{member.name}</span>
+        <span>{todo.name}</span>
         <input type="checkbox" className="checkbox" />
       </label>
     </li>

@@ -1,4 +1,4 @@
-export default function Action() {
+export default function TodoAction() {
   return (
     <div className="buttons">
       <button>Cancel</button>
